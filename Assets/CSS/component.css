@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Space+Mono&family=Work+Sans:wght@800&display=swap');
+
+:root {
+    --primary-color: #A259FF;
+    --secondary-color: #2B2B2B;
+}
+*,html,body{
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans"sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p,span,table,td,tr,ol,ul,li {
+    padding: 0;
+    margin: 0;
+}
+.primary-font {
+    font-family: "Space Mono", monospace;
+}
+h1,h2,h3,h4,h5 {
+    /* font-style: normal; */
+    font-weight: 700;
+}
+h1 {
+    font-size: 67px;
+    line-height: 110%;
+}
+h2 {
+    font-size: 51px;
+    line-height: 110%;
+}
+h3 {
+    font-size: 38px;
+    line-height: 120%;
+    color: #8cbdd4;
+}
+h4 {
+    font-size: 28px;
+    line-height: 140%;
+}
+h5 {
+    font-size: 22px;
+    line-height: 160%;
+}
+p,span,label {
+    font-size: 16px;
+    font-weight: 400;
+}
+.button {
+    display: inline-flex;
+    height: 60px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    /* border: 2px solid #000; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+.button-primary {
+    color: white;
+    background: var(--primary-color);
+    border: 2px solid var(--secondary-color);
+}
+.button-danger {
+    color: #fff;
+    background: #e0b6b6;
+    border: 2px solid #e06b6b;
+}
+.button-success {
+    color: #fff;
+    background: #4ab94a;
+    border: 2px solid #e06b6b;
+}
+.button-outline {
+    color: #fff;
+    background: #3a313d6b;
+    border: 2px solid #6805a1;
+}
+.button-danger {
+    color: #fff;
+    background: #e70fdc;
+    border: 2px solid #8cbdd4;
+}
+.button-lg {
+    height: 72px;
+    font-size: 22px;
+}
+.button-sm {
+    height: 46px;
+}
+.button-md {
+    height: 50px;
+}
+.button-icon::before {
+    content: '';
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content:center ;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+.button-rocket::before {
+    content: '';
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-image: url(./../image/icon/RocketLaunch.png);
+}
+.box {
+    color: white;
+    width: 300px;
+    height: 300px;
+    background: lightblue;
+}
+.box::before {
+    content: 'Hello';
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background: #2B2B2B;
+} 
+.box::after {
+    
+    content: 'world';
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #3a12eb;
+}
+.button-rocket::before {
+    background-image: url(./../image/icon/RocketLaunch.svg);
+}
+.button-envelope::before {
+    background-image: url(./../image/icon/EnvelopeSimple.svg);
+}
+.button-user::before {
+    background-image: url(./../image/icon/User.png);
+}
+.buttton-eye::before{
+    background-image: url(./../image/icon/Button.svg);
+}
+.button-instragram::before {
+    background-image: url(./../image/icon/InstagramLogo.svg);
+}
+section {
+    padding: 20px;
+}

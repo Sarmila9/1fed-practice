@@ -1,0 +1,221 @@
+.container-wrapper {
+    background: #2B2B2B;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+header {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-wrapper {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.logo-wrapper span {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.nav-wrapper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+nav {
+    display: flex;
+    gap: 10px;
+}
+nav a {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+/* front page */
+.hero-banner {
+    display: flex;
+    gap: 30px;
+    padding: 80px 195px;
+}
+.hero-banner .hero-banner-detail {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.hero-banner .hero-banner-detail .hero-banner-heading h1 {
+    margin-bottom: 20px;
+}
+.progress {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    font-family: Space Mono;
+}
+.progress .progress-single {
+    display: flex;
+    gap: 30px;
+}
+.hero-banner-card {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.hero-banner-card .card-detail {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    background: #3b3b3b;
+}
+.hero-banner-card .hero-banner-avatar-detail {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+/* Trending collection */
+
+.trending-collection-wrapper{
+    display: flex;
+    gap: 60px;
+    padding: 80px 195px;
+    flex-direction: column;
+}
+.trending-collection-heading {
+    display: flex;
+    width: 1046px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.trending-collection-heading h3{
+    color: white;
+    font-family: "Work Sans" sans-serif;
+    font-weight: 600;
+    line-height: 120%;
+}
+.trending-collection-heading p {
+    font-weight: 400;
+    line-height: 160%;
+}
+.trending-collection-card-wrapper {
+    display: flex;
+    width: 1050px;
+    align-items: flex-start;
+    gap: 30px;
+}
+.trending-collection-card-wrapper-detail {
+    display: flex;
+    width: 330px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+.trending-collection-more-images {
+    /* display: inline-flex;
+    justify-content: center; */
+    position: absolute;
+    padding: 32px 15px;
+    font-family: Space Mono;
+    color: white;
+    font-size: 22px;
+    line-height: 160%;
+    font-weight: 700;
+    border-radius: 20px;
+    background: #A259FF;
+}
+.trending-collection-card-avatar h1 {
+    font-weight: 600;
+    line-height: 140%;
+    font-family: "work sans" sans-serif;
+    font-size: 22px;
+}
+/* Top-Rated-Artis */
+
+.Top-Rated-Artists {
+    display: flex;
+    padding: 80px 195px;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+.Section-Headline-Detail {
+    display: flex;
+    width: 1050px;
+    align-items: flex-end;
+    gap: 100px;
+}
+.Section-Headline {
+    width: 703px;
+    align-items: flex-start;
+    gap: 10px;
+}
+.Section-Headline h1 {
+    font-size: 38px;
+    font-family: "Work Sans" sans-serif;
+    font-weight: 600;
+    line-height: 120%;
+    font-style: normal;
+}
+.Section-Headline p {
+    font-family: "Work Sans" sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.Artist-Cards-Grid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: "Work Sans" sans-serif;
+    gap: 30px;
+}
+.Artist-Cards-Row {
+    display: flex;
+    width: 1050px;
+
+}
+.Artist-Cards-Row .Artist-Card {
+    padding: 20px;
+}
+.Artist-Cards-Row .Artist-information {
+    padding: 20px;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 140%;
+}
+.Artist-Cards-Row .Additional-information {
+    display: flex;
+    /* align-items: flex-start; */
+}
+.Artist-Cards-Row .Additional-information h4 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: #858584;
+}
+.Artist-Cards .Additional-information span {
+    font-family: Space Mono;
+    font-size: 16px;
+    gap: 2px;
+   text-align: right;
+}
+.Artist-Cards-Row .Artist-Cards .Ranking {
+    left: 10px;
+    top: 4px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    width: 30px;
+    border-radius: 20px;
+    background: #2B2B2B;
+    align-items: flex-start;
+}
